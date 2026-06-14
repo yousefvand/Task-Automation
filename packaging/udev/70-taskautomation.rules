@@ -1,0 +1,6 @@
+# Task Automation development udev rule.
+# Security warning: members of the input group can read keyboard/mouse input.
+# Use this for development only.
+
+KERNEL=="uinput", MODE="0660", GROUP="input", OPTIONS+="static_node=uinput"
+SUBSYSTEM=="input", KERNEL=="event*", MODE="0640", GROUP="input"

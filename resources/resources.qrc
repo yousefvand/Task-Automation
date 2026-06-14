@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file>icons/taskautomation.png</file>
+    <file>icons/recording-stop-red.png</file>
+  </qresource>
+</RCC>

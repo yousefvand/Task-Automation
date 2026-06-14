@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Task Automation
+Comment=Record and replay keyboard and mouse macros
+Exec=taskautomation
+Icon=taskautomation
+Terminal=false
+Categories=Utility;Automation;

@@ -1,0 +1,6 @@
+# Task Automation v1
+start
+t=0.000000 mouse_pos x=500 y=400
+t=0.250000 button code=272 name=BTN_LEFT value=1
+t=0.330000 button code=272 name=BTN_LEFT value=0
+end
