@@ -6,7 +6,7 @@ OWNER="yousefvand"
 REPO="Task-Automation"
 PKGNAME="task-automation"
 
-URL="https://github.com/${OWNER}/${REPO}/archive/refs/tags/${VERSION}.tar.gz"
+URL="https://github.com/${OWNER}/${REPO}/archive/refs/tags/v${VERSION}.tar.gz"
 OUT="/tmp/${PKGNAME}-${VERSION}.tar.gz"
 
 need_cmd() {

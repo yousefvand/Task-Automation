@@ -77,6 +77,14 @@ Task Automation uses:
 - Linux `uinput` for playback through a virtual input device.
 - KDE/KWin scripting for Wayland cursor-position feedback.
 
+## Installation
+
+For Archlinux KDE Plasma Wayland users:
+
+```bash
+yay -S task-automation
+```
+
 ## Build from source
 
 ```bash
